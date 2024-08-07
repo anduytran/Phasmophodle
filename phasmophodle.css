@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(October\ Crow.ttf);
+}
+body {
+    background-image:url("public/wp7775354-phasmophobia-wallpapers.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+}
+
+.title-area {
+    font-family: myFirstFont;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
