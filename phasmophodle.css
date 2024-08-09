@@ -48,6 +48,16 @@ body {
     cursor: pointer;
     border-radius: 12px;
 }
+
+.title-area button:hover{ /* On hover, the button is bigger */
+    transform: scale(1.01) perspective(1px);
+}
+
+.title-area button:active{ /* When the button is clicked, the button will look like it's being pressed down */
+    transform: scale(0px, 5px);
+    -webkit-transform: translate(0px, 6px);
+}
+
 #title {
     font-family: myFirstFont;
     font-size: 65px;
